@@ -1,0 +1,11 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+    
+generate_article:
+    path:     /generate_article
+    controller: App\Controller\DefaultController::store
+    
+new_articles:
+    path:     /new_articles
+    controller: App\Controller\DefaultController::get_list 
